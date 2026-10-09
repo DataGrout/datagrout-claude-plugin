@@ -1,0 +1,20 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Internal submission notes (server findings, reviewer credentials) — never publish
+SUBMISSION.md
+
+# Local upload archive from npm run zip
+datagrout.zip
+
+# OS and editor
+.DS_Store
+*.swp
+*.swo
+
+# Logs and temp
+*.log
+tmp/
+temp/

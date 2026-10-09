@@ -1,0 +1,19 @@
+{
+  "name": "datagrout",
+  "displayName": "DataGrout",
+  "version": "1.0.0",
+  "description": "Give Claude every tool you connect in DataGrout: discover, plan and run integrations through one OAuth-secured MCP endpoint.",
+  "author": {
+    "name": "DataGrout",
+    "email": "support@datagrout.ai",
+    "url": "https://datagrout.ai"
+  },
+  "homepage": "https://datagrout.ai",
+  "repository": "https://github.com/DataGrout/datagrout-claude-plugin",
+  "license": "MIT",
+  "keywords": ["datagrout", "mcp", "integrations", "agents", "workflow"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://library.datagrout.ai/",
+  "privacyPolicyUrl": "https://datagrout.ai/legal#privacy",
+  "termsOfServiceUrl": "https://datagrout.ai/legal#terms"
+}

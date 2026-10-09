@@ -1,0 +1,15 @@
+{
+  "name": "datagrout-claude-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Packaging for the DataGrout Claude plugin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "validate": "claude plugin validate --strict ./plugins/datagrout && claude plugin validate --strict . && node scripts/check-plugin.mjs",
+    "dev": "claude --plugin-dir ./plugins/datagrout",
+    "zip": "rm -f datagrout.zip && cd plugins && zip -qrX ../datagrout.zip datagrout -x '*.DS_Store'"
+  }
+}
